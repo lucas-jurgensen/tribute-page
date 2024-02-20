@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  background-image: url(assets/background.webp);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1024px;
+}
+
+.banner-headline h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+.banner-headline h2 {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: #fff;
+}
+
+.main-content {
+  display: flex;
+  width: 1024px;
+}
+
+.main-img {
+  flex: 1;
+}
+
+.main-description {
+  flex: 2;
+}
+
+.smile-bob-marley {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #999;
+  transition: all 0.5s ease;
+}
+
+.smile-bob-marley:hover {
+  height: 520px;
+}
+
+.description-title h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.description-text p {
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#tribute-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+/* div pai*/
+.tribute-container {
+  display: flex;
+  width: 1024px;
+}
+
+/* divs filha */
+.container-headline h1 {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+
+.container-list li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container-marcos {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.container-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  margin-top: 90px;
+}
+
+.stand-at-camera {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #e5e5e5;
+  transition: all 0.5s ease;
+}
+
+.stand-at-camera:hover {
+  height: 420px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #202020;
+}
+
+.content p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.content a {
+  color: #6bc9ff;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #00a2ff;
+}
